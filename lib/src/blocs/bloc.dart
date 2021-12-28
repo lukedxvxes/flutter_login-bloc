@@ -1,7 +1,7 @@
 import 'dart:async';
 import 'validators.dart';
 
-class _Bloc extends Validators {
+class Bloc extends Validators {
   final _emailController = StreamController<String>();
   final _passwordController = StreamController<String>();
 
@@ -21,4 +21,4 @@ class _Bloc extends Validators {
   }
 }
 
-final bloc = _Bloc();
+final bloc = Bloc();
